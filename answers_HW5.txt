@@ -1,0 +1,14 @@
+5)
+
+Github: https://github.com/Nolann-epi/HW5
+Netlify: https://neon-donut-355431.netlify.app
+
+6)
+
+a) console.log(anArray.filter(value => value % 2 === 0).map(x => x * 2)); -->  [4, 8, 12, 16, 20]
+
+b) console.log(anArray.map(x => x * 2).filter(value => value % 2 === 0)); --> [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+
+c) No, the output are not the same because you don't use filter and map in the same order.
+    First you take only the odd and multiply them by 2 -> answer a
+    Second, you all multiply them by 2, but every number mutliplied by 2 become odd so the filter is useless, so you have output multiplied by 2
